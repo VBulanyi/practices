@@ -1,0 +1,12 @@
+.header__link-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header__link-container_active {
+    background-color: #FFF;
+    border-bottom: 3px solid #46D444;
+}

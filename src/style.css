@@ -1,0 +1,48 @@
+@import url(vendor/fonts.css);
+@import url(blocks/header/header.css);
+@import url(blocks/about/about.css);
+@import url(blocks/video/video.css);
+@import url(blocks/footer/footer.css);
+@import url(blocks/slidebar/slidebar.css);
+
+html {
+  font-family: 'SFUIDisplay', Arial, Helvetica, sans-serif;
+  font-size: 10px;
+  word-spacing: 1px;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  margin: 0 auto;
+  color: #334856;
+  overflow: hidden;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+::-webkit-scrollbar {
+  width: 0;
+}
+
+body {
+  overflow: hidden;
+  min-height: 100%;
+  max-width: 375px;
+  margin: auto;
+}
+
+main {
+  height: calc(100vh - 12rem);
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+.page {
+  position: relative;
+}

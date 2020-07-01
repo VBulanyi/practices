@@ -1,0 +1,11 @@
+.video__card-text {
+    font-size: 1.4rem;
+    margin-left: 1.6rem;
+    margin-right: 2.5rem;
+    z-index: 2;
+}
+
+.video__card-text_inactive {
+    font-size: 1.4rem;
+    z-index: 2;
+}

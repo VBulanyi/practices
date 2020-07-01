@@ -1,0 +1,8 @@
+.header__menu-icon {
+    margin-right: 1.3rem;
+}
+
+.header__menu-icon:last-child {
+    margin-right: 2.4rem;
+    margin-left: 2.4rem;
+}

@@ -1,0 +1,11 @@
+.video__card-time {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #C3CBCE;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 5px;
+    color: #fff;
+    font-weight: bold;
+    padding: 0.3rem 0.6rem;
+}

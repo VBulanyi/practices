@@ -1,0 +1,11 @@
+.slidebar__round {
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    background-color: #FFF;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

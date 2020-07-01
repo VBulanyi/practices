@@ -1,0 +1,6 @@
+.video__container {
+    padding: 3rem 1.8rem 0 1.8rem;
+    background: linear-gradient(180deg, #FBFCFC 0%, #ECEFF0 10%);
+    border-top: 2px solid #C3CBCE;
+    margin-top: -3px;
+}

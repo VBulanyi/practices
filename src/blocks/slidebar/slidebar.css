@@ -1,0 +1,19 @@
+@import url(./__round/slidebar__round.css);
+@import url(./__text/slidebar__text.css);
+
+.slidebar {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    left: 0;
+    bottom: 4.5rem;
+    background-color: rgb(195, 203, 206);
+    width: 34rem;
+    height: 6rem;
+    border: 2px solid #FFF;
+    border-radius: 45px;
+    margin: 1.8rem;
+    flex-direction: row;
+    transition: background-color 0.5s;
+    z-index: 5;
+}

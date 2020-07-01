@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Practices</title>
+    <meta name="viewport" content="width=device-width,  user-scalable=no">
+    <link rel="stylesheet" href="<%=htmlWebpackPlugin.files.chunks.main.css %>">
+</head>
+
+<body>
+    <div class="page">
+        <header class="header">
+            <nav class="header__menu">
+                <div class="header__link-container header__link-container_active">
+                    <img class="header__menu-icon" src=" <%= require('./images/v.svg')%>" alt="check">
+                    <a class="header__menu-link_active" href="#">
+                        Практика
+                    </a>
+                </div>
+                <div class="header__link-container">
+                    <img class="header__menu-icon" src="<%= require('./images/star.svg')%>" alt="favorite">
+                    <a class="header__menu-link" href="#">
+                        Статистика
+                    </a>
+                </div>
+                <a class="header__menu-link" href="#">
+                    <img class="header__menu-icon" src="<%= require('./images/settings.svg')%>" alt="settings">
+                </a>
+            </nav>
+        </header>
+        <main class="main">
+            <section class="about">
+                <div class="about__content">
+                    <h1 class="about__title">Асаны</h1>
+                    <p class="about__text">Выберите любимый комплекс, выполните асаны и отметьте практику свайпом
+                        слайдера
+                        вправо</p>
+                </div>
+                <img class="about__image" src="<%= require('./images/about.png')%>" alt="Поза весов">
+            </section>
+            <section class="video">
+                <div class="video__buttons">
+                    <button id="beginners" class="video__btn video__btn_active">ДЛЯ НАЧИНАЮЩИХ</button>
+                    <button id="continuing" class="video__btn">ДЛЯ ПРОДОЛЖАЮЩИХ</button>
+                    <button id="stretch" class="video__btn">НА РАСТЯЖКУ</button>
+                </div>
+                <div class="video__container">
+                </div>
+            </section>
+        </main>
+        <div class="slidebar">
+            <div class="slidebar__round">
+                <img class="slidebar__round-check" src="<%= require('./images/check.png')%>" alt="галка">
+            </div>
+            <p class="slidebar__text">ОТМЕТИТЬ ПРАКТИКУ</p>
+        </div>
+        <footer class="footer">МЕСТО ПОД НИЖНЕЕ МЕНЮ</footer>
+    </div>
+    <script src="<%= htmlWebpackPlugin.files.chunks.main.entry %>"></script>
+</body>
+
+</html>

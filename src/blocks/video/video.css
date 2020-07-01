@@ -1,0 +1,16 @@
+@import url(./__buttons/video__buttons.css);
+@import url(./__btn/video__btn.css);
+@import url(./__container/video__container.css);
+@import url(./__card/video__card.css);
+@import url(./__card-img/video__card-img.css);
+@import url(./__card-text/video__card-text.css);
+@import url(./__card-time/video__card-time.css);
+
+.video {
+    background-color: #ECEFF0;
+    padding-top: 3.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+}

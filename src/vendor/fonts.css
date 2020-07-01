@@ -1,0 +1,13 @@
+@font-face {
+    font-family: "SFUIDisplay.ttf";
+    font-style: normal;
+    font-weight: normal;
+    src: url("fonts/SF_UI_Display_reg.ttf") format("ttf");
+}
+
+@font-face {
+    font-family: "SFUIDisplay.ttf";
+    font-style: bold;
+    font-weight: bold;
+    src: url("fonts/SF_UI_Display_bold.ttf") format("ttf");
+}

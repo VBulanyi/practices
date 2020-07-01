@@ -1,0 +1,15 @@
+@import url(./_active/video__btn_active.css);
+
+.video__btn {
+    border: 2px solid #C3CBCE;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    font-size: 1.2rem;
+    padding: 0.9rem 1.3rem 0.6rem 1.3rem;
+    outline: none;
+}
+
+.video__btn:nth-child(2n) {
+    margin-left: -1px;
+    margin-right: -1px;
+}
